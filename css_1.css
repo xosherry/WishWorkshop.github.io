@@ -1,0 +1,62 @@
+/*Select the body element to apply styles to.*/
+body {
+	/*Increases the font size of the page by 140%.*/
+	font-size: 1.4em;
+	/*Changes the font face. The browser goes uses the first font on the list that is installed on
+	  the client's computer.*/
+	font-family: Candara, Calibri, Optima, sans-serif;
+}
+
+header {
+	/* Fixes the position of the header so it stays put even when you scroll.*/
+	position: fixed;
+	/* Tells the browser to always keep the header at the top left corner of the page.*/
+	top: 0px;
+	left: 0px;
+	/*Tells the browser to make the header the same height as the page.*/
+	height: 100%;
+	/*Centers the text in the header element.*/
+	text-align: center;
+	/*Sets the background color to a nice shade of blue.*/
+	background: #74bcc3;
+	/*Sets the font color to white.*/
+	color: white;
+	/*Adds extra space around the header.*/
+	padding: 10px;
+}
+
+/*Select the element with class 'title' inside the header element.*/
+header .title {
+	/*Increase the font size of the title.*/
+	font-size: 2em;
+}
+
+/*Select the 'a' elements inside the nav element.*/
+nav a {
+	/*Remove the underlining from links.*/
+	text-decoration: none;
+	/*Add 30px of space between links.*/
+	margin-right: 30px;
+	/*Set the link font color to white.*/
+	color: white;
+	/*Make each link be on a separate line.*/
+	display: block;
+}
+
+main {
+	/*Add a margin to the main content so it isn't hidden behind the sidebar.*/
+	margin-left: 300px;
+	/*Add a margin to keep the content from going all the way to the edge of the page.*/
+	margin-right: 130px;
+}
+
+section {
+	/*The margin adds extra vertical space between the section elements.*/
+	margin-bottom: 80px;
+}
+
+/*Select all elements with class 'section-title'.*/
+.section-title {
+	/*Add a border under each section title.*/
+	border-bottom: 2px solid #74bcc3;
+}
