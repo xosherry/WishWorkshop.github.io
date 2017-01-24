@@ -1,0 +1,24 @@
+We've been editing these files locally on your personal computer, which means no one on this planet can it except for you.
+
+
+Now we publish it onto the internet so the whole world can find you!
+
+Steps:
+
+	1) Create/Sign into your Github account
+	2) Click "Start a Project"
+	3) Name your repo "YourGithubUsername.github.io"
+			For example, I would type in: SherryLi.github.io
+	   Click "Create repository"
+	4) Copy your <repo link>
+	5) Open your terminal
+	6) Go to the directory where your tutorial_1.html and css_1.css files are
+	7) Now do:
+		git remote add <YourName> <repo link>
+		git add .
+		git commit -m "Publishing my website"
+		git push <YourName> master
+
+
+
+	8) visit your site at YourGithubUsername.github.io
